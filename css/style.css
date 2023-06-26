@@ -1,0 +1,97 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+   box-sizing: border-box;
+}
+body{
+
+   background-color: #021823;
+   color: white;
+   font-size: 75px;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.logo{
+   width: 1300px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+}
+.logo img{
+   width: 350px;
+   height: 350px;
+   margin-top: -450px;
+   animation: logo 2s forwards;
+}
+@keyframes logo{
+   0%{
+      margin-top: -300px;
+   }
+   50%{
+      margin-top: 150px;
+      width: 400px;
+      height: 400px;
+      /* transform: scale(1.5); */
+   }
+   100%{
+      margin-top: 0;
+   }
+}
+span{
+   margin-top: -50px;
+   animation: najot 1s linear 0s forwards;
+}
+@keyframes najot{
+   0%{
+      margin-top: -50px;
+   }
+   50%{
+      margin-top: -120px;
+   }
+   100%{
+      margin-top: 0;
+   }
+}
+
+
+
+span:nth-child(1){
+   animation-delay: 2.5s;
+}
+span:nth-child(2){
+   animation-delay: 2.4s;
+}
+span:nth-child(3){
+   animation-delay: 2.3s;
+}
+span:nth-child(4){
+   animation-delay: 2.2s;
+}
+span:nth-child(5){
+   animation-delay: 2.1s;
+}
+span:nth-child(7){
+   animation-delay: 2.1s;
+}
+span:nth-child(8){
+   animation-delay: 2.2s;
+}
+span:nth-child(9){
+   animation-delay: 2.3s;
+}
+span:nth-child(10){
+   animation-delay: 2.4s;
+}
+span:nth-child(11){
+   animation-delay: 2.5s;
+}
